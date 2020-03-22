@@ -1,0 +1,153 @@
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    body {
+      background: rgb(255,255,255);
+    }
+
+
+    h1 {
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top: 40px;
+      left:50%;
+    }
+
+
+    p1{
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top: 140px;
+      left:12%;
+      line-height: 1.5;
+      padding-right: 20%;
+      white-space: nowrap;
+    }
+
+    h2 {
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top: 240px;
+      left:12%;
+      font-size: 28px;
+      padding-right: 20%;
+      white-space: nowrap;
+    }
+
+
+    ul1 {
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top: 310px;
+      left:12%;
+      line-height: 1.5;
+      padding-right: 20%;
+      white-space: nowrap;
+    }
+
+    h3 {
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top: 400px;
+      left:12%;
+      font-size: 28px;
+        padding-right: 20%;
+        white-space: nowrap;
+    }
+
+
+    ul2 {
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top: 480px;
+      left:12%;
+      line-height: 1.5;
+      padding-right: 20%;
+      white-space: nowrap;
+    }
+
+    h4 {
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top: 720px;
+      left:12%;
+      font-size: 28px;
+      padding-right: 20%;
+      white-space: nowrap;
+    }
+
+    ul3 {
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top: 810px;
+      left:12%;
+      line-height: 1.5;
+      padding-right: 20%;
+      white-space: nowrap;
+    }
+
+    h5 {
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top: 880px;
+      left:12%;
+      font-size: 28px;
+      padding-right: 20%;
+      white-space: nowrap;
+    }
+
+    ul4 {
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top: 980px;
+      left:12%;
+      line-height: 1.5;
+       padding-bottom: 100px;
+        padding-right: 15%;
+        white-space: nowrap;
+    }
+
+
+
+/* Navigation Bar style */
+
+ul5 {
+  list-style-type: none;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+li1 {
+  float: none;
+}
+
+
+li1 a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  position: relative;
+  left:35%;
+}
+li1 a:hover {
+ color: #808080;
+ border-bottom: red solid 3px;
+}
