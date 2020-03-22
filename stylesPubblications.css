@@ -1,0 +1,117 @@
+
+    /* Navigation Bar style */
+
+    ul5 {
+      list-style-type: none;
+      font-family: Helvetica;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    li1 {
+      float: none;
+    }
+
+
+    li1 a {
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      position: relative;
+      left:35%;
+    }
+    li1 a:hover {
+     color: #808080;
+     border-bottom: red solid 3px;
+    }
+
+    /* Text style */
+
+
+
+        body {
+          background: rgb(255,255,255);
+        }
+
+        h1 {
+          position: absolute;
+          float: left;
+          top: 7%;
+          left:46%;
+          color: black;
+          font-family: Helvetica;
+        }
+
+        h2 {
+          color: black;
+          position: absolute;
+          float: left;
+          font-family: Helvetica;
+          top: 150px;
+          left:200px;
+          font-size: 25px;
+        }
+
+        ul1 {
+          color: black;
+          position: absolute;
+          float: left;
+          font-family: Helvetica;
+          top: 250px;
+          left:200px;
+          line-height: 2;
+        }
+
+li a {
+  text-decoration:none;
+  color: black;
+}
+        li a:hover {
+         color: blue;
+        }
+
+        h3 {
+          color: black;
+          position: absolute;
+          float: left;
+          font-family: Helvetica;
+          top: 800px;
+          left:200px;
+          font-size: 25px;
+        }
+
+        ul2 {
+          color: black;
+          position: absolute;
+          float: left;
+          font-family: Helvetica;
+          top: 900px;
+          left:200px;
+          line-height: 2;
+          list-style-position: outside;
+          padding-bottom: 10%;
+          overflow: hidden;
+        }
+
+        ul1 li{
+          /*
+ * We want the bullets outside of the list,
+ * so the text is aligned. Now the actual bullet
+ * is outside of the list’s container
+ */
+list-style-position: outside;
+text-indent: -1em;
+
+        }
+
+        ul2 li{
+          /*
+ * We want the bullets outside of the list,
+ * so the text is aligned. Now the actual bullet
+ * is outside of the list’s container
+ */
+list-style-position: outside;
+text-indent: -1em;
+
+        }
