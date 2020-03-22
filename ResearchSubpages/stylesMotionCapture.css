@@ -1,0 +1,90 @@
+/* Navigation Bar style */
+
+ul5 {
+  list-style-type: none;
+  font-family: Helvetica;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li1 {
+  float: none;
+}
+
+
+li1 a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  position: relative;
+  left:35%;
+}
+li1 a:hover {
+ color: #808080;
+ border-bottom: red solid 3px;
+}
+
+
+h1 {
+  position: absolute;
+  top: 7%;
+  left:49%;
+  color: black;
+  font-family: Helvetica;
+}
+
+
+a {
+  font-style: Helvetica;
+  text-decoration:none;
+  color: black;
+}
+
+    p1{
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top: 25%;
+      left:15%;
+      line-height: 1.5;
+        white-space: nowrap;
+    }
+
+
+    p2{
+      color: black;
+      position: absolute;
+      font-family: Helvetica;
+      top:82%;
+      left:15%;
+      line-height: 1.5;
+        white-space: nowrap;
+    }
+
+
+
+
+
+.video1{
+ position: absolute;
+ float: left;
+ left:15%;
+ top:38%;
+}
+
+.video2{
+ position: absolute;
+ float: left;
+ left:60%;
+  top:38%;
+  padding-right: 15%;
+}
+
+.video3{
+ position: absolute;
+ float: left;
+ left:15%;
+ top:92%;
+    padding-bottom: 100px;
+}
