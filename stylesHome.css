@@ -1,0 +1,256 @@
+
+h1 {
+  position: absolute;
+  top: 7%;
+  left:41.5%;
+  color: black;
+  font-family: Helvetica;
+}
+
+
+    .zoom:hover {
+
+      -ms-transform: scale(1.25); /* IE 9 */
+     transform: scale(1.25);
+      -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+      filter: grayscale(100%);
+  transition: transform .2s;
+
+    }
+
+    .content_img_1{
+     position: relative;
+     float: left;
+     left:11%;
+     top:210px;
+     margin-right: 20%;
+     border:none;
+    }
+
+    .content_img_2{
+     position: relative;
+     float: left;
+     margin-right: 1%;
+     left:-7%;
+     top:210px;
+     border:none;
+    }
+
+    .content_img_3{
+     position: relative;
+     float: left;
+      margin-right: 1%;
+     left:-7%;
+     top:210px;
+     border:none;
+    }
+
+    .content_img_4{
+     position: relative;
+     float: left;
+      margin-right: 1%;
+     left:-7%;
+     top:210px;
+     border:none;
+    }
+
+    .content_img_5{
+     position: relative;
+     float: left;
+     left:-6%;
+     top:250px;
+     border:none;
+    }
+
+
+/* Child Text Container */
+.content_img_1 div{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: Helvetica;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.2s linear;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+
+.content_img_2 div{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: Helvetica;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.2s linear;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+
+.content_img_3 div{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: Helvetica;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.2s linear;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+
+.content_img_4 div{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: Helvetica;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.2s linear;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+
+
+.content_img_5 div{
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  background: black;
+  color: white;
+  margin-bottom: 5px;
+  font-family: Helvetica;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.2s linear;
+  transition: visibility 0s, opacity 0.2s linear;
+}
+
+/* Hover on Parent Container */
+.content_img_1:hover{
+ cursor: pointer;
+  z-index:10;
+}
+
+.content_img_2:hover{
+ cursor: pointer;
+   z-index:10;
+}
+
+.content_img_3:hover{
+ cursor: pointer;
+   z-index:10;
+}
+
+.content_img_4:hover{
+ cursor: pointer;
+   z-index:10;
+}
+
+.content_img_5:hover{
+ cursor: pointer;
+   z-index:10;
+}
+
+.content_img_1:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7;
+}
+
+.content_img_2:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7;
+}
+
+.content_img_3:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7;
+}
+
+.content_img_4:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7;
+}
+
+.content_img_5:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7;
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    color: #00FFFF;
+}
+
+.fab:hover {
+    color: #00FFFF;
+}
+.fa-twitter {
+  color: #C0C0C0;
+  position: absolute;
+  bottom: 10%;
+  left: 61%;
+}
+
+.fa-google {
+  color: #C0C0C0;
+  position: absolute;
+  bottom: 10%;
+  left: 56%;
+}
+
+.fa-linkedin {
+  color: #C0C0C0;
+  position: absolute;
+  bottom: 10%;
+  left: 51%;
+}
+
+.fa-youtube {
+  color: #C0C0C0;
+  position: absolute;
+  bottom: 10%;
+  left: 46%;
+}
+
+.fa-github {
+  color: #C0C0C0;
+  position: absolute;
+  bottom: 10%;
+  left: 41%;
+}
+
+.fa-researchgate {
+  color: #C0C0C0;
+  position: absolute;
+  bottom: 12.5%;
+  left: 37.5%;
+}
