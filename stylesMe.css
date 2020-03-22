@@ -1,125 +1,86 @@
 
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
+body{
+    font-size: 100%;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    max-width: 800px;
+    margin: 0 auto !important;
+    float: none !important;
+}
 
 
-    body {
-      background: rgb(255,255,255);
-    }
-
-
-    h1 {
-      color: black;
-      position: absolute;
-      font-family: Helvetica;
-      top: 40px;
-      left:50%;
-    }
+h1 {
+  color: black;
+  font-size: 2em;
+  font-family: Helvetica;
+  margin-left: 10%;
+  margin-top: 10%;
+}
 
 
     p1{
       color: black;
-      position: absolute;
       font-family: Helvetica;
-      top: 140px;
-      left:12%;
+      margin-left: 0%;
       line-height: 1.5;
-      padding-right: 20%;
-      white-space: nowrap;
     }
 
     h2 {
       color: black;
-      position: absolute;
+      font-size: 2em;
       font-family: Helvetica;
-      top: 240px;
-      left:12%;
-      font-size: 28px;
-      padding-right: 20%;
-      white-space: nowrap;
+      margin-left: 0%;
     }
 
 
     ul1 {
       color: black;
-      position: absolute;
       font-family: Helvetica;
-      top: 310px;
-      left:12%;
+      margin-left: 15%;
       line-height: 1.5;
-      padding-right: 20%;
-      white-space: nowrap;
     }
 
     h3 {
       color: black;
-      position: absolute;
       font-family: Helvetica;
-      top: 400px;
-      left:12%;
-      font-size: 28px;
-        padding-right: 20%;
-        white-space: nowrap;
+      margin-left: 0%;
+      font-size: 2em;
     }
 
 
     ul2 {
       color: black;
-      position: absolute;
       font-family: Helvetica;
-      top: 480px;
-      left:12%;
+      margin-left: 15%;
       line-height: 1.5;
-      padding-right: 20%;
-      white-space: nowrap;
     }
 
     h4 {
       color: black;
-      position: absolute;
+      font-size: 2em;
       font-family: Helvetica;
-      top: 720px;
-      left:12%;
-      font-size: 28px;
-      padding-right: 20%;
-      white-space: nowrap;
+      margin-left: 0%;
     }
 
     ul3 {
       color: black;
-      position: absolute;
       font-family: Helvetica;
-      top: 810px;
-      left:12%;
       line-height: 1.5;
-      padding-right: 20%;
-      white-space: nowrap;
+      margin-left: 15%;
     }
 
     h5 {
+      font-size: 2em;
       color: black;
-      position: absolute;
       font-family: Helvetica;
-      top: 880px;
-      left:12%;
-      font-size: 28px;
-      padding-right: 20%;
-      white-space: nowrap;
+        margin-left: 0%;
     }
 
     ul4 {
       color: black;
-      position: absolute;
       font-family: Helvetica;
-      top: 980px;
-      left:12%;
       line-height: 1.5;
-       padding-bottom: 100px;
-        padding-right: 15%;
-        white-space: nowrap;
+      margin-left: 15%;
+      padding-bottom: 10%
     }
 
 
@@ -132,7 +93,7 @@ ul5 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  
+
 }
 
 li1 {
@@ -145,7 +106,7 @@ li1 a {
   text-align: center;
   padding: 14px 16px;
   position: relative;
-  left:35%;
+  left:15%;
 }
 li1 a:hover {
  color: #808080;

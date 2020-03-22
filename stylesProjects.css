@@ -1,4 +1,12 @@
 
+body{
+    font-size: 100%;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    max-width: 800px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
 /* Navigation Bar style */
 
 ul5 {
@@ -19,7 +27,7 @@ li1 a {
   text-align: center;
   padding: 14px 16px;
   position: relative;
-  left:35%;
+  left:15%;
 }
 li1 a:hover {
  color: #808080;
@@ -28,11 +36,11 @@ li1 a:hover {
 
 
 h1 {
-  position: absolute;
-  top: 7%;
-  left:47%;
   color: black;
+  font-size: 2em;
   font-family: Helvetica;
+  margin-left: 45%;
+  margin-top: 10%;
 }
 
 
@@ -48,12 +56,9 @@ a {
 
     p1{
       color: black;
-      position: absolute;
       font-family: Helvetica;
-      top: 200px;
-      left:7%;
+      margin-left: 0%;
       line-height: 1.5;
-      white-space: nowrap;
     }
 
 

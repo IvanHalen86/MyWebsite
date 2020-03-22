@@ -1,4 +1,14 @@
 
+
+
+body{
+    font-size: 100%;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    max-width: 800px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
     /* Navigation Bar style */
 
     ul5 {
@@ -19,7 +29,7 @@
       text-align: center;
       padding: 14px 16px;
       position: relative;
-      left:35%;
+      left:15%;
     }
     li1 a:hover {
      color: #808080;
@@ -29,39 +39,32 @@
     /* Text style */
 
 
-
-        body {
-          background: rgb(255,255,255);
-        }
-
         h1 {
-          position: absolute;
-          float: left;
-          top: 7%;
-          left:46%;
+          font-size: 2em;
           color: black;
           font-family: Helvetica;
+          margin-left: 15%;
+          margin-top: 10%
         }
 
         h2 {
           color: black;
-          position: absolute;
-          float: left;
           font-family: Helvetica;
-          top: 150px;
-          left:200px;
-          font-size: 25px;
+          font-size: 1.5em;
+          margin-left: 0%;
         }
 
         ul1 {
           color: black;
-          position: absolute;
           float: left;
           font-family: Helvetica;
-          top: 250px;
-          left:200px;
           line-height: 2;
+          margin-left: 0%;
         }
+
+
+
+
 
 li a {
   text-decoration:none;
@@ -72,26 +75,22 @@ li a {
         }
 
         h3 {
-          color: black;
-          position: absolute;
           float: left;
+          color: black;
           font-family: Helvetica;
-          top: 800px;
-          left:200px;
-          font-size: 25px;
+          font-size: 1.5em;
+          margin-left: 0%;
         }
 
         ul2 {
           color: black;
-          position: absolute;
           float: left;
           font-family: Helvetica;
-          top: 900px;
-          left:200px;
           line-height: 2;
           list-style-position: outside;
           padding-bottom: 10%;
           overflow: hidden;
+          margin-left: 0%;
         }
 
         ul1 li{
