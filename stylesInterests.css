@@ -1,10 +1,19 @@
+body{
+    font-size: 100%;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    max-width: 800px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
 
 h1 {
-  position: absolute;
-  top: 7%;
-  left:50%;
   color: black;
+  font-size: 2em;
   font-family: Helvetica;
+  margin-left: 45%;
+  margin-top: 10%;
+  padding-bottom: 5%
 }
 
 /* Navigation Bar style */
@@ -27,7 +36,7 @@ li1 a {
   text-align: center;
   padding: 14px 16px;
   position: relative;
-  left:35%;
+  left:10%;
 }
 li1 a:hover {
  color: #808080;
@@ -52,18 +61,19 @@ p1{
   float: left;
   margin-right:150px;
   left:18%;
-  top:40%;
+  top:30%;
   width:15%;
 }
 
 /* Child Text Container */
 .content_img_1 div{
  position: absolute;
- bottom: 5px;
- left: 5px;
+ bottom: 1%;
+ left: 0%;
  background: black;
  color: white;
  margin-bottom: 5px;
+ font-size: 1.2vw;
  font-family: Helvetica;
  opacity: 0;
  visibility: hidden;
@@ -90,9 +100,10 @@ p1{
   float: left;
   margin-right:150px;
   left:60%;
-  top:35%;
+  top:25%;
   width:15%;
   padding-right: 20%;
+
 }
 
 /* Child Text Container */
@@ -102,6 +113,7 @@ p1{
  left: 5px;
  background: white;
  color: black;
+ font-size: 1.2vw;
  margin-bottom: 5px;
  font-family: Helvetica;
  opacity: 0;
