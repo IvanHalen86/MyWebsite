@@ -30,7 +30,7 @@ h1 {
      position: absolute;
      float: left;
      left:14%;
-     top:40%;
+     top:30%;
      border:none;
     }
 
@@ -38,26 +38,26 @@ h1 {
      position: absolute;
      float: left;
      left:28.5%;
-     top:40%;
+     top:30%;
      border:none;
     }
 
     .content_img_3{
      position: absolute;
     left:42.5%;
-     top:40%;
+     top:30%;
     }
 
     .content_img_4{
      position: absolute;
      left:60%;
-     top:40%;
+     top:30%;
     }
 
     .content_img_5{
      position: absolute;
      left:74%;
-     top:42%;
+     top:33%;
     }
 
 
