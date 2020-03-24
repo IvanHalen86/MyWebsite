@@ -35,15 +35,16 @@ h1 {
     ul1 {
       color: black;
       font-family: Helvetica;
-      margin-left: 15%;
+      margin-left: 0%;
       line-height: 1.5;
-    }
+        }
 
 
     ul2 {
       color: black;
       font-family: Helvetica;
-      margin-left: 15%;
+      margin-left: 0%;
+
       line-height: 1.5;
     }
 
@@ -52,7 +53,7 @@ h1 {
       color: black;
       font-family: Helvetica;
       line-height: 1.5;
-      margin-left: 15%;
+      margin-left: 0%;
     }
 
 
@@ -60,8 +61,7 @@ h1 {
       color: black;
       font-family: Helvetica;
       line-height: 1.5;
-      margin-left: 15%;
-      padding-bottom: 10%
+      margin-left: 0%;
     }
 
 
@@ -87,7 +87,7 @@ li1 a {
   text-align: center;
   padding: 14px 16px;
   position: relative;
-  left:15%;
+  left:10%;
 }
 li1 a:hover {
  color: #808080;
