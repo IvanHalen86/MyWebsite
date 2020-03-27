@@ -54,90 +54,56 @@ p1{
 }
 
 
+* {
+  box-sizing: border-box;
+}
 
-/* Parent Container */
-.content_img_1{
-  position: fixed;
+.column {
   float: left;
-  margin-right:150px;
-  left:18%;
-  top:30%;
-  width:15%;
+  width: 50%;
+  padding: 60px;
+  padding-top:5%;
+  padding-left: 12%;
 }
 
-/* Child Text Container */
-.content_img_1 div{
- position: absolute;
- bottom: 1%;
- left: 0%;
- background: black;
- color: white;
- margin-bottom: 5px;
- font-size: 1.2vw;
- font-family: Helvetica;
- opacity: 0;
- visibility: hidden;
- -webkit-transition: visibility 0s, opacity 0.2s linear;
- transition: visibility 0s, opacity 0.2s linear;
+.column div{
+  position: absolute;
+  background-color: black;
+  padding-bottom: 30%;
+  color: white;
+  font-family: Helvetica;
+  font-size: 1.2vw;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.2s linear;
+  transition: visibility 0s, opacity 0.2s linear;
 }
 
-/* Hover on Parent Container */
-.content_img_1:hover{
- cursor: pointer;
+
+.column:hover {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+   cursor: pointer;
 }
 
-.content_img_1:hover div{
- width: 150px;
- padding: 8px 15px;
+.column:hover div{
+ padding: 8px 30px;
  visibility: visible;
  opacity: 0.7;
 }
 
-
-/* Parent Container */
-.content_img_2{
-  position: fixed;
-  float: left;
-  margin-right:150px;
-  left:60%;
-  top:25%;
-  width:15%;
-  padding-right: 20%;
-
-}
-
-/* Child Text Container */
-.content_img_2 div{
- position: absolute;
- bottom: 5px;
- left: 5px;
- background: white;
- color: black;
- font-size: 1.2vw;
- margin-bottom: 5px;
- font-family: Helvetica;
- opacity: 0;
- visibility: hidden;
- -webkit-transition: visibility 0s, opacity 0.2s linear;
- transition: visibility 0s, opacity 0.2s linear;
-
-}
-
-/* Hover on Parent Container */
-.content_img_2:hover{
- cursor: pointer;
-}
-
-.content_img_2:hover div{
- width: 150px;
- padding: 8px 15px;
- visibility: visible;
- opacity: 0.7;
-}
 
 
 .zoom:hover {
   -ms-transform: scale(1.1); /* IE 9 */
  transform: scale(1.1);
 
+}
+
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
