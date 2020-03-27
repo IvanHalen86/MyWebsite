@@ -1,5 +1,4 @@
 
-
 body{
     font-size: 100%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -44,88 +43,49 @@ li1 a:hover {
  border-bottom: red solid 3px;
 }
 
-
-
-
-/* Parent Container */
-.content_img_1{
- position: fixed;
- float: left;
- left:15%;
- top:20%;
- width:15%;
+* {
+  box-sizing: border-box;
 }
 
-.content_img_2{
- position: fixed;
- float: left;
- margin-right:150px;
- left:15%;
- top:60%;
- width:15%;
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+  padding-top:5%;
+  padding-left: 3%;
 }
 
-.content_img_3{
- position: fixed;
- float: left;
- left:60%;
- top:20%;
- width:15%;
-}
-
-
-/* Child Text Container */
-.content_img_1 div{
- position: absolute;
- background-color: black;
- color: white;
- font-family: Helvetica;
- font-size: 2vw;
- bottom: 0%;
- left: 0%;
- padding-left: 60%;
- height:20%;
- width:140%;
-}
-
-.content_img_2 div{
+.column div{
   position: absolute;
   background-color: black;
+  padding-bottom: 30%;
   color: white;
   font-family: Helvetica;
- font-size: 2vw;
-  bottom: 0%;
-  left: 0%;
-  padding-left: 55%;
-  padding-right: 0px;
-  height:20%;
-  width:145%;
-}
-
-.content_img_3 div{
-  position: absolute;
-  background-color: black;
-  color: white;
-  font-family: Helvetica;
-  font-size: 2vw;
-  bottom: 0%;
-  left: 0%;
-  padding-left: 80%;
-  height:20%;
-  width:120%;
+  font-size: 1.2vw;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.2s linear;
+  transition: visibility 0s, opacity 0.2s linear;
 }
 
 
-.content_img_1:hover {
+.column:hover {
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+   cursor: pointer;
 }
 
-.content_img_2:hover {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+.column:hover div{
+ padding: 8px 30px;
+ visibility: visible;
+ opacity: 0.7;
 }
-.content_img_3:hover {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+
+
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+ transform: scale(1.1);
+
 }
+
