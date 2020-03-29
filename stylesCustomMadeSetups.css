@@ -8,6 +8,12 @@ body{
     float: none !important;
 }
 
+h2 {
+  color: black;
+  font-size: 2em;
+  font-family: Helvetica;
+  margin-top: 5%;
+}
 
 /* Navigation Bar style */
 
