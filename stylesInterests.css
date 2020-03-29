@@ -24,6 +24,9 @@ ul5 {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  position: fixed;
+ top: 5%;
+ left:33%;
 }
 
 li1 {
@@ -35,8 +38,6 @@ li1 a {
   color: black;
   text-align: center;
   padding: 14px 16px;
-  position: relative;
-  left:10%;
 }
 li1 a:hover {
  color: #808080;
