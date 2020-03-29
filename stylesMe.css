@@ -7,13 +7,20 @@ body{
     float: none !important;
 }
 
+h3 {
+  color: black;
+  font-size: 2em;
+  font-family: Helvetica;
+  margin-top: 5%;
+}
+
 
 h1 {
   color: black;
   font-size: 2em;
   font-family: Helvetica;
   margin-left: 10%;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 
@@ -76,9 +83,8 @@ ul5 {
   padding: 0;
   overflow: hidden;
   position: relative;
-  float: inherit;
   top: 5%;
-  left:5%;
+  margin-left:5%;
 
 }
 
