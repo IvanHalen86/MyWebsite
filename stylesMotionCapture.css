@@ -1,4 +1,5 @@
 
+
 body{
     font-size: 100%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -7,7 +8,12 @@ body{
     float: none !important;
 }
 
-
+h2 {
+  color: black;
+  font-size: 2em;
+  font-family: Helvetica;
+  margin-top: 5%;
+}
 
 /* Navigation Bar style */
 
@@ -18,7 +24,6 @@ ul5 {
   padding: 0;
   overflow: hidden;
   position: relative;
-  float: inherit;
   top: 5%;
   left:5%;
 }
