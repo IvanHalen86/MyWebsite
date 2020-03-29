@@ -1,6 +1,5 @@
 
 
-
 body{
     font-size: 100%;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -14,9 +13,12 @@ body{
     ul5 {
       list-style-type: none;
       font-family: Helvetica;
-      margin: 0;
       padding: 0;
+      margin: 0;
       overflow: hidden;
+      position: fixed;
+      top: 5%;
+      left:33%;
     }
 
     li1 {
@@ -28,8 +30,6 @@ body{
       color: black;
       text-align: center;
       padding: 14px 16px;
-      position: relative;
-      left:15%;
     }
     li1 a:hover {
      color: #808080;
@@ -43,8 +43,8 @@ body{
           font-size: 2em;
           color: black;
           font-family: Helvetica;
-          margin-left: 15%;
-          margin-top: 10%
+          margin-left: 5%;
+          margin-top: 20%
         }
 
         h2 {
@@ -52,6 +52,7 @@ body{
           font-family: Helvetica;
           font-size: 1.5em;
           margin-left: 0%;
+          margin-top: 5%;
         }
 
         ul1 {
