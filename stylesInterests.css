@@ -24,7 +24,7 @@ ul5 {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  position: fixed;
+  position: absolute;
  top: 5%;
  left:33%;
 }
