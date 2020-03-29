@@ -16,9 +16,10 @@ body{
       padding: 0;
       margin: 0;
       overflow: hidden;
-      position: absolute;
-      top: 5%;
-      margin-left:3.5%;
+       position: relative;
+  float: inherit;
+  top: 5%;
+  left:5%;
     }
 
     li1 {
