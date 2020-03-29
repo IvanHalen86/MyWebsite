@@ -13,7 +13,7 @@ h1 {
   font-size: 2em;
   font-family: Helvetica;
   margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 20%;
 }
 
 
@@ -21,6 +21,7 @@ h1 {
       color: black;
       font-family: Helvetica;
       margin-left: 0%;
+      margin-top:5%;
       line-height: 1.5;
     }
 
@@ -74,6 +75,9 @@ ul5 {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  position: fixed;
+  top: 5%;
+  left:33%;
 
 }
 
@@ -86,8 +90,6 @@ li1 a {
   color: black;
   text-align: center;
   padding: 14px 16px;
-  position: relative;
-  left:10%;
 }
 li1 a:hover {
  color: #808080;
