@@ -7,6 +7,16 @@ body{
     float: none !important;
 }
 
+
+
+h2 {
+  color: black;
+  font-size: 2em;
+  font-family: Helvetica;
+  margin-top: 5%;
+}
+
+
 /* Navigation Bar style */
 
 ul5 {
@@ -16,7 +26,6 @@ ul5 {
   padding: 0;
   overflow: hidden;
   position: relative;
-  float: inherit;
   top: 5%;
   left:8%;
 }
@@ -42,7 +51,7 @@ h1 {
   font-size: 2em;
   font-family: Helvetica;
   margin-left: 37%;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 
