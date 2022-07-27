@@ -31,9 +31,9 @@ a {
     }
 
     .content_img_1{
-     position: fixed;
+     position: absolute;
      left:14%;
-     top:30%;
+     top:33%;
     }
 
     .content_img_2{
