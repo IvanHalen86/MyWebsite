@@ -256,5 +256,20 @@ width: 30%;
 height: 30%;
 }
 
+.video8 {
+position: relative;
+padding-bottom: 56.25%;
+height: 0;
+}
+
+.video8 iframe,
+.video8 object,
+.video8 embed {
+position: absolute;
+top:-575%;
+left: 35%;
+width: 30%;
+height: 30%;
+}
 
 /*    padding-bottom: 100px; */
